@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T12:28:54 IST" name="Surefire suite" finished-at="2024-09-02T12:30:05 IST" duration-ms="70469">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@4dbb42b7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-02T12:28:54 IST" name="Surefire test" finished-at="2024-09-02T12:30:05 IST" duration-ms="70469">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:28:54 IST" name="setUpClass" finished-at="2024-09-02T12:28:54 IST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bbe50c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:28:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T12:29:22 IST" duration-ms="28036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating KidsAndToys option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["KidsAndToys"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:29:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T12:29:29 IST" duration-ms="6808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the Learning & Activity link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Learning & Activity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:29:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T12:29:35 IST" duration-ms="6220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating Remote Control Toys Link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Remote Control Toys"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:29:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T12:30:05 IST" duration-ms="29181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating Unique toys link poduct for end test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unique Toys"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@4dbb42b7]" started-at="2024-09-02T12:30:05 IST" name="tearDownClass" finished-at="2024-09-02T12:30:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
