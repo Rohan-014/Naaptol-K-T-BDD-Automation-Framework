@@ -19,8 +19,9 @@ Features
 Users can select products from the "Kids and Toys" category.
 Users can apply filters from the left-hand side to obtain more refined search results.
 Installation & Getting Started
-Start:
 
+Installation & Getting started:  
+START....
 Open the project in Spring Tool Suite or any preferred IDE.
 Create a new Maven project.
 Add the necessary dependencies for Selenium, Cucumber, TestNG, and any other required libraries.
@@ -33,16 +34,18 @@ Write feature files in the features package to define test scenarios in Gherkin 
 Implement step definitions in the stepDefinitions package.
 Create Java classes for the Page Object Model in the pageObjects package.
 Use TestNG in the runners package to execute the tests.
-End.
+...END
 
-Usage
+
+Usage:
 Open the Naaptol website in a browser.
 Navigate to "Shopping Categories."
 Select "Kids and Toys."
 Explore all provided links.
 Apply filters by selecting the relevant checkboxes.
 Select a product from the filtered results.
-Technology Used
+
+Technology Used:
 Java
 Selenium (for automation)
 Cucumber (for BDD)
