@@ -37,15 +37,15 @@ Use TestNG in the runners package to execute the tests.
 END.
 
 Usage:
-Open the Naaptol website in a browser.
-Navigate to "Shopping Categories."
-Select "Kids and Toys."
-Explore all provided links.
-Apply filters by selecting the relevant checkboxes.
-Select a product from the filtered results.
+1.Open the Naaptol website in a browser.
+2.Navigate to "Shopping Categories."
+3.Select "Kids and Toys."
+4.Explore all provided links.
+5.Apply filters by selecting the relevant checkboxes.
+6.Select a product from the filtered results.
 
 Technology Used:
-Java
-Selenium (for automation)
-Cucumber (for BDD)
-TestNG (for test management)
+1.Java
+2.Selenium (for automation)
+3.Cucumber (for BDD)
+4.TestNG (for test management)
