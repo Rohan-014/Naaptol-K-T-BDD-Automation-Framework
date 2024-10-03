@@ -1,51 +1,77 @@
-# Naaptol_BDD_Testng
-Introduction
-This project focuses on the automated testing of the "Kids and Toys" section of the Naaptol website using a BDD approach. The goal is to ensure that users can efficiently browse, select products, and apply filters for a refined shopping experience. Cucumber is used to write human-readable test scenarios, and TestNG is used to manage the test execution.
+# Naaptol BDD TestNG Automation
 
-Project Type:
+## Project Overview
+
+This project focuses on automated testing of the **"Kids and Toys"** section of the Naaptol website using a BDD approach. The goal is to ensure that users can efficiently browse, select products, and apply filters for a refined shopping experience. The project leverages **Cucumber** for writing human-readable test scenarios and **TestNG** for managing test execution.
+
+## Project Type
+
 BDD Automation Testing
 
-Directory:
-E:\Documents\Naaptol_POM
+## Directory Structure
 
-Video Walkthrough:
-https://drive.google.com/file/d/1mzCV4Iu3b0H290_GIxzF2mn08bKLwj46/view?usp=sharing
+## Walkthroughs & Screenshots
 
+- **Video Walkthrough**: [Watch Video](https://drive.google.com/file/d/1mzCV4Iu3b0H290_GIxzF2mn08bKLwj46/view?usp=sharing)
+- **Screenshots**: [View Screenshots](https://drive.google.com/drive/folders/1hcqDMW809lXbPljL1XoeYNW8VbK_YJIh?usp=sharing)
 
-Screenshots:
-https://drive.google.com/drive/folders/1hcqDMW809lXbPljL1XoeYNW8VbK_YJIh?usp=sharing
+## Features
 
+- Users can browse products in the "Kids and Toys" category.
+- Users can apply filters to refine search results using the checkboxes available on the left-hand side of the page.
+- The automation ensures smooth navigation, product selection, and filter application.
 
-Features:
-Users can select products from the "Kids and Toys" category.
-Users can apply filters from the left-hand side to obtain more refined search results.
-Installation & Getting Started
-START:
+## Installation & Getting Started
 
-Open the project in Spring Tool Suite or any preferred IDE.
-Create a new Maven project.
-Add the necessary dependencies for Selenium, Cucumber, TestNG, and any other required libraries.
-Create packages for the following:
-features: to store .feature files.
-stepDefinitions: to store step definition classes.
-runners: to store the test runner classes.
-pageObjects: to store page object classes.
-Write feature files in the features package to define test scenarios in Gherkin language.
-Implement step definitions in the stepDefinitions package.
-Create Java classes for the Page Object Model in the pageObjects package.
-Use TestNG in the runners package to execute the tests.
-END.
+### Prerequisites
 
-Usage:
-1.Open the Naaptol website in a browser.
-2.Navigate to "Shopping Categories."
-3.Select "Kids and Toys."
-4.Explore all provided links.
-5.Apply filters by selecting the relevant checkboxes.
-6.Select a product from the filtered results.
+- **Java** (JDK 8 or above)
+- **Maven** (for dependency management)
+- **Spring Tool Suite (STS)** or any preferred IDE
+- Web browser (Chrome or Firefox)
 
-Technology Used:
-1.Java
-2.Selenium (for automation)
-3.Cucumber (for BDD)
-4.TestNG (for test management)
+### Steps
+
+1. **Clone the repository** or download the project from your directory.
+2. **Open the project** in Spring Tool Suite or any preferred IDE.
+3. **Create a new Maven project** if not already done.
+4. **Add dependencies** for Selenium, Cucumber, TestNG, and any other required libraries in the `pom.xml` file.
+
+### Directory Setup
+
+- **features**: Store `.feature` files for defining test scenarios using Gherkin language.
+- **stepDefinitions**: Contains step definition classes that map to the Gherkin steps.
+- **runners**: Test runner classes to execute the tests with TestNG.
+- **pageObjects**: Java classes implementing the Page Object Model (POM).
+
+### Writing and Running Tests
+
+1. **Feature Files**: Define test scenarios in `.feature` files located in the `features` package.
+2. **Step Definitions**: Implement step definitions for the scenarios in the `stepDefinitions` package.
+3. **Page Objects**: Implement page object classes in the `pageObjects` package to represent the web elements.
+4. **Test Execution**: Use TestNG runners in the `runners` package to execute tests.
+
+### Example Execution
+
+1. Navigate to `Shopping Categories` on the Naaptol website.
+2. Select the **"Kids and Toys"** category.
+3. Explore product listings.
+4. Apply filters for refined results.
+5. Select a product from the filtered results.
+
+## Usage
+
+1. **Open the Naaptol website** in a browser.
+2. **Navigate to "Kids and Toys"** under the "Shopping Categories."
+3. **Browse and explore** available links and products.
+4. **Apply filters** using the relevant checkboxes on the left-hand side.
+5. **Select a product** from the filtered results for more details.
+
+## Technologies Used
+
+- **Java**
+- **Selenium** (for browser automation)
+- **Cucumber** (for BDD and human-readable scenarios)
+- **TestNG** (for test execution and management)
+
+---
